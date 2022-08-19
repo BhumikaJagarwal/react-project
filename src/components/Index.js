@@ -15,7 +15,7 @@ const dispatch=useDispatch();
       <p>{myState}</p>
       <button style={{color:"blue"}} onClick={decrease}>decrement</button>
     </div>
-  )
+  )   
 }
 
 export default Index;
