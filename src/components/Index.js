@@ -11,9 +11,9 @@ const dispatch=useDispatch();
   return (
     <div>
       <h2>Hello</h2>
-      <button style={{color:"blue"}} onClick={increase}>increment</button>
+      <button style={{background:"voilet"}} onClick={increase}>increment</button>
       <p>{myState}</p>
-      <button style={{color:"blue"}} onClick={decrease}>decrement</button>
+      <button style={{background:"blue"}} onClick={decrease}>decrement</button>
     </div>
   )   
 }
